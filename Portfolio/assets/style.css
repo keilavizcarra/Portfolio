@@ -3,7 +3,7 @@ body {
   font-size: 18px;
   line-height: 34px;
   color: black;
-  background: url("../assets/images/original.jpg")no-repeat center center fixed;
+  background: url("../assets/images/background.jpg")no-repeat center center fixed;
   background-size: cover;
 }
 
@@ -44,6 +44,7 @@ h1 {
   font-size: 30px;
   line-height: 49px;
   border-bottom: 3px solid black;
+  font-style: italic;
 }
 
 h2,
@@ -220,4 +221,10 @@ input[type=submit] {
   border: 0 none;
 }
 
+.container-1{
+  float: right;
+}
 
+.container-2{
+  font-style: oblique;
+}
